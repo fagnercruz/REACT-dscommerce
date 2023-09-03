@@ -1,14 +1,7 @@
-import "./App.css";
-import HeaderClient from "./components/HeaderClient";
-import ProductCard from "./components/ProductCard";
+import ProductsDetails from "./Routes/ProductDetails";
 
 function App() {
-  return (
-    <>
-      <HeaderClient />
-      <ProductCard />
-    </>
-  );
+  return <ProductsDetails />;
 }
 
 export default App;
