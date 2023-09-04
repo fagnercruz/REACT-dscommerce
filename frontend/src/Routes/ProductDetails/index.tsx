@@ -1,12 +1,12 @@
 import HeaderClient from "../../components/HeaderClient";
-import ProductCard from "../../components/ProductCard";
+import ProductDetailCard from "../../components/ProductDetailCard";
 import "./styles.css";
 
 export default function ProductsDetails() {
   return (
     <>
       <HeaderClient />
-      <ProductCard />
+      <ProductDetailCard />
     </>
   );
 }

@@ -3,7 +3,7 @@ import computer from "../../assets/images/computer.png";
 import Tag from "../Tag";
 import Button from "../Button";
 
-export default function ProductCard() {
+export default function ProductDetailCard() {
   return (
     <main>
       <section id="product-details-section" className="dsc-container">
