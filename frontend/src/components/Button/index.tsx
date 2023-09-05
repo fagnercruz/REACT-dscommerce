@@ -6,5 +6,6 @@ type Props = {
 };
 
 export default function Button({ label, corClass }: Props) {
-  return <div className={corClass}>{label}</div>;
+  const cssBase = "dsc-btn dsc-btn-";
+  return <div className={cssBase.concat(corClass)}>{label}</div>;
 }

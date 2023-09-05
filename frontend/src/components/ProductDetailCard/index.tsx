@@ -30,8 +30,8 @@ export default function ProductDetailCard({ product }: Props) {
             </div>
           </div>
           <div className="dsc-btn-page-container">
-            <Button label="Comprar" corClass="dsc-btn dsc-btn-blue" />
-            <Button label="Inicio" corClass="dsc-btn dsc-btn-white" />
+            <Button label="Comprar" corClass="blue" />
+            <Button label="Inicio" corClass="white" />
           </div>
         </section>
       </main>
