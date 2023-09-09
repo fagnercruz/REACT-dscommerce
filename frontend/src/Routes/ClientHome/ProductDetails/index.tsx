@@ -1,5 +1,5 @@
-import ProductDetailCard from "../../components/ProductDetailCard";
-import { ProductDTO } from "../../types/Product";
+import ProductDetailCard from "../../../components/ProductDetailCard";
+import { ProductDTO } from "../../../types/Product";
 import "./styles.css";
 
 const product: ProductDTO = {
