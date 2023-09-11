@@ -3,6 +3,7 @@ import Tag from "../Tag";
 import Button from "../Button";
 
 import { ProductDTO } from "../../types/Product";
+import { Link } from "react-router-dom";
 
 type Props = {
   product: ProductDTO;
@@ -29,7 +30,9 @@ export default function ProductDetailCard({ product }: Props) {
         </div>
         <div className="dsc-btn-page-container">
           <Button label="Comprar" corClass="blue" />
-          <Button label="Inicio" corClass="white" />
+          <Link to="/catalog">
+            <Button label="Inicio" corClass="white" />
+          </Link>
         </div>
       </section>
     </main>
