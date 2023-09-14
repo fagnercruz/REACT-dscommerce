@@ -19,6 +19,7 @@ export default function ProductsDetails() {
         setProduct(response.data);
       })
       .catch(() => {
+        /* Condição para erro */
         navigate("/");
       });
   });
